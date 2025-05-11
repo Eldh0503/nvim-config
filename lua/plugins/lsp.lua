@@ -10,7 +10,7 @@ require("mason").setup({
 })
 
 require("mason-lspconfig").setup({
-	ensure_installed = {"clangd", "pyright", "cssls", "jsonls", "lua_ls", "cmake"}
+	ensure_installed = {"clangd", "pyright", "cssls", "jsonls", "lua_ls", "cmake", "hyprls"}
 })
 
 local lsp_attach = function(client, bufnr)
@@ -44,6 +44,11 @@ lsp.pyright.setup({
 })
 
 lsp.cmake.setup({
+  lsp_attach = lsp_attach,
+	capabilities = capabilities
+})
+
+lsp.hyprls.setup({
   lsp_attach = lsp_attach,
 	capabilities = capabilities
 })

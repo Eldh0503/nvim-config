@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
 	use {'williamboman/mason.nvim'}
 	use {'williamboman/mason-lspconfig.nvim'}
 	use {'neovim/nvim-lspconfig'}
+  use {'elkowar/yuck.vim'}
 
 	-- SNIPPETS --
 	use {'saadparwaiz1/cmp_luasnip'}
@@ -73,6 +74,8 @@ return require('packer').startup(function(use)
 	use {'olimorris/onedarkpro.nvim'}
 	use {'Mofiqul/vscode.nvim'}
 	use {'folke/tokyonight.nvim'}
+  use {'ellisonleao/gruvbox.nvim'}
+  use {'sainnhe/gruvbox-material'}
 
 	-- STATUSLINE --
 	use {

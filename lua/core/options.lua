@@ -33,4 +33,5 @@ opt.smartcase = true
 -- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
-vim.cmd[[colorscheme onedark]]
+require('../plugins/theme')
+vim.cmd[[colorscheme gruvbox]]
