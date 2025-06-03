@@ -29,6 +29,13 @@ return require('packer').startup(function(use)
 	use {'williamboman/mason-lspconfig.nvim'}
 	use {'neovim/nvim-lspconfig'}
   use {'elkowar/yuck.vim'}
+  use {
+    'nvim-flutter/flutter-tools.nvim',
+    requires = {
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+  }
 
 	-- SNIPPETS --
 	use {'saadparwaiz1/cmp_luasnip'}

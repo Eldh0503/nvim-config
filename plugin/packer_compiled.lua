@@ -119,6 +119,16 @@ _G.packer_plugins = {
     path = "/home/eldh/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "/home/eldh/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/home/eldh/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/nvim-flutter/flutter-tools.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/eldh/.local/share/nvim/site/pack/packer/start/friendly-snippets",
