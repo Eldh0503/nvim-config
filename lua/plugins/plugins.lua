@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
 	use {'wbthomason/packer.nvim'}
 
 	-- LSP --
+  use {'VonHeikemen/lsp-zero.nvim'}
 	use {'williamboman/mason.nvim'}
 	use {'williamboman/mason-lspconfig.nvim'}
 	use {'neovim/nvim-lspconfig'}
