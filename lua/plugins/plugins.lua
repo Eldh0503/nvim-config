@@ -111,5 +111,8 @@ return require('packer').startup(function(use)
 
   -- CMAKE --
   use {'Civitasv/cmake-tools.nvim'}
+
+  -- INDENT LINE --
+  use {'lukas-reineke/indent-blankline.nvim'}
 end)
 
